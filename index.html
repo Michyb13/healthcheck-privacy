@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — NHP HealthCheck</title>
+  <style>
+    :root {
+      --navy: #2D3270;
+      --gold: #C9A84C;
+      --text: #2b2b2b;
+      --muted: #666;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      line-height: 1.65;
+      background: #fafafa;
+    }
+    header {
+      background: var(--navy);
+      color: #fff;
+      padding: 48px 24px 36px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 6px; font-size: 1.9rem; }
+    header p { margin: 0; color: var(--gold); font-size: 0.95rem; }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 32px 24px 64px;
+      background: #fff;
+    }
+    h2 {
+      color: var(--navy);
+      font-size: 1.25rem;
+      margin-top: 2.2em;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--gold);
+    }
+    h3 { color: var(--navy); font-size: 1.05rem; margin-top: 1.6em; }
+    ul { padding-left: 1.3em; }
+    li { margin-bottom: 0.4em; }
+    .meta { color: var(--muted); font-size: 0.9rem; }
+    .disclaimer {
+      background: #EEF0FA;
+      border-left: 4px solid var(--navy);
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 1.5em 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.93rem;
+      margin: 1em 0;
+    }
+    th, td {
+      text-align: left;
+      padding: 10px 12px;
+      border: 1px solid #e2e2e2;
+      vertical-align: top;
+    }
+    th { background: var(--navy); color: #fff; font-weight: 600; }
+    tr:nth-child(even) td { background: #f7f7f9; }
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+    a { color: var(--navy); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy</h1>
+    <p>NHP HealthCheck — New Heights Pharmaceuticals</p>
+  </header>
+
+  <main>
+    <p class="meta">Effective date: June 10, 2026 &nbsp;·&nbsp; Last updated: June 10, 2026</p>
+
+    <p>
+      This Privacy Policy explains how <strong>New Heights Pharmaceuticals</strong>
+      (“we”, “us”, “our”) collects, uses, protects, and shares information when you
+      use the <strong>NHP HealthCheck</strong> mobile application (the “App”) and its
+      related services. By creating an account or using the App, you agree to the
+      practices described in this policy.
+    </p>
+
+    <h2>1. Who We Are</h2>
+    <p>
+      NHP HealthCheck is operated by New Heights Pharmaceuticals. For privacy
+      enquiries, contact us at
+      <a href="mailto:info@newheightspharma.com">info@newheightspharma.com</a>
+      or visit <a href="https://newheightspharma.com">newheightspharma.com</a>.
+    </p>
+
+    <h2>2. Who Uses the App</h2>
+    <p>The App supports two kinds of accounts:</p>
+    <ul>
+      <li><strong>Hospital accounts</strong> — healthcare institutions and their staff who record and review patient health checks.</li>
+      <li><strong>Individual accounts</strong> — people managing their own personal health records.</li>
+    </ul>
+    <p>
+      Where a hospital enters patient information, the hospital is responsible for
+      ensuring it has the appropriate authority and patient consent to record that
+      information. We process such information on the hospital's behalf to provide
+      the service.
+    </p>
+
+    <h2>3. Information We Collect</h2>
+    <h3>Account information</h3>
+    <ul>
+      <li>Name (institution name or personal name)</li>
+      <li>Email address</li>
+      <li>Password (stored only as a secure cryptographic hash — we cannot see your password)</li>
+      <li>For individual accounts: date of birth and gender</li>
+      <li>For hospital accounts: institution address (optional)</li>
+    </ul>
+
+    <h3>Health information</h3>
+    <ul>
+      <li>Patient demographic details (name, date of birth, gender)</li>
+      <li>Physical measurements (height, weight, calculated BMI, vital signs)</li>
+      <li>Laboratory and diagnostic test results entered into the App, scanned from test cassettes, or extracted from uploaded documents</li>
+      <li>AI-generated clinical summaries derived from the above</li>
+    </ul>
+
+    <h3>Technical information</h3>
+    <ul>
+      <li>Crash and error reports (via Sentry), which include device model, operating system version, and the technical details of the error. We configure error reporting to exclude personal and health information.</li>
+      <li>Basic service logs (timestamps, request outcomes) needed to operate and secure the service.</li>
+    </ul>
+    <p>
+      We do <strong>not</strong> collect your location, contacts, or advertising
+      identifiers, and the App contains no advertising or third-party marketing trackers.
+    </p>
+
+    <h2>4. How We Use Information</h2>
+    <ul>
+      <li>To provide the service: recording health checks, generating reports and PDFs, and displaying patient records to authorised users.</li>
+      <li>To generate AI clinical summaries of entered test results (see Section 5).</li>
+      <li>To send essential transactional emails: verification codes, password reset codes. We do not send marketing email through the App.</li>
+      <li>To secure the service: authentication, rate limiting, and abuse prevention.</li>
+      <li>To fix problems: crash and error diagnostics.</li>
+    </ul>
+    <p>We do not sell personal information, and we do not use health information for advertising.</p>
+
+    <h2>5. AI Processing</h2>
+    <p>
+      When a health check is submitted, the entered test results are processed by
+      Anthropic's Claude AI service to generate a clinical summary. This processing
+      happens through Anthropic's commercial API, under which submitted data is not
+      used to train AI models. The generated summary is stored with the health check
+      record and is visible only to the account that created it.
+    </p>
+    <div class="disclaimer">
+      <strong>Medical disclaimer:</strong> AI-generated summaries and all App content
+      are provided for clinical reference only. They are not a diagnosis and are not
+      a substitute for professional medical judgement. Always consult a qualified
+      clinician.
+    </div>
+
+    <h2>6. Service Providers</h2>
+    <p>
+      We use a small number of service providers to run the App. Each receives only
+      the information necessary to perform its function:
+    </p>
+    <table>
+      <tr><th>Provider</th><th>Purpose</th><th>Data involved</th></tr>
+      <tr><td>Railway</td><td>Application hosting and database</td><td>All service data, encrypted in transit</td></tr>
+      <tr><td>Anthropic</td><td>AI clinical summary generation</td><td>Submitted test results and demographics</td></tr>
+      <tr><td>Resend</td><td>Transactional email delivery</td><td>Email address, verification codes</td></tr>
+      <tr><td>Sentry</td><td>Crash and error reporting</td><td>Technical error data only; configured to exclude personal and health information</td></tr>
+      <tr><td>Apple / Google</td><td>App distribution</td><td>Standard app store telemetry under their own policies</td></tr>
+    </table>
+
+    <h2>7. Data Security</h2>
+    <ul>
+      <li>All data is transmitted over encrypted connections (HTTPS/TLS).</li>
+      <li>Passwords are hashed with bcrypt; we never store or transmit them in readable form.</li>
+      <li>Access to records is restricted by account: hospitals can only access their own patients, and individuals only their own records.</li>
+      <li>Authentication tokens are stored in the device's secure storage (iOS Keychain / Android Keystore) and expire automatically.</li>
+    </ul>
+
+    <h2>8. Data Retention and Deletion</h2>
+    <ul>
+      <li>Your information is retained while your account is active.</li>
+      <li>You may delete your account at any time from the Profile screen in the App. Deleted accounts can no longer sign in or be accessed.</li>
+      <li>To request complete erasure of your data from our systems, contact
+        <a href="mailto:info@newheightspharma.com">info@newheightspharma.com</a>.
+        We will action verified erasure requests within 30 days, except where retention
+        is required by law.</li>
+    </ul>
+
+    <h2>9. Your Rights</h2>
+    <p>Depending on the laws that apply to you, you have the right to:</p>
+    <ul>
+      <li>Access a copy of the personal information we hold about you</li>
+      <li>Correct inaccurate information</li>
+      <li>Delete your information</li>
+      <li>Object to or restrict certain processing</li>
+      <li>Receive your information in a portable format</li>
+    </ul>
+    <p>
+      To exercise any of these rights, contact
+      <a href="mailto:info@newheightspharma.com">info@newheightspharma.com</a>.
+      Individuals whose records were entered by a hospital should direct requests to
+      that hospital in the first instance, as the holder of the treatment relationship.
+    </p>
+
+    <h2>10. Children</h2>
+    <p>
+      The App is not directed at children, and individual accounts may only be
+      created by adults. Patient records for minors may be entered by hospital
+      accounts in the course of providing healthcare, under the hospital's own
+      consent processes.
+    </p>
+
+    <h2>11. International Transfers</h2>
+    <p>
+      Our service providers may store or process data in countries other than your
+      own. Where they do, we rely on their contractual safeguards and security
+      certifications to protect your information to the standard described in this
+      policy.
+    </p>
+
+    <h2>12. Changes to This Policy</h2>
+    <p>
+      We may update this policy as the App evolves. Material changes will be
+      announced in the App or by email, and the “Last updated” date above will
+      always reflect the current version.
+    </p>
+
+    <h2>13. Contact</h2>
+    <p>
+      New Heights Pharmaceuticals<br />
+      Email: <a href="mailto:info@newheightspharma.com">info@newheightspharma.com</a><br />
+      Website: <a href="https://newheightspharma.com">newheightspharma.com</a>
+    </p>
+  </main>
+
+  <footer>
+    © 2026 New Heights Pharmaceuticals. All rights reserved.
+  </footer>
+</body>
+</html>
